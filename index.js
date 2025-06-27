@@ -9,7 +9,7 @@ import route from "./routes/userRoutes.js";
 const app = express();
 app.use(bodyParser.json());
 app.use(cors({
-  origin: 'http://localhost:3000', // your frontend's origin
+  origin: 'http://localhost:3001', // your frontend's origin
   credentials: true // allow cookies
 }));
 app.use(express.json());
